@@ -1,0 +1,5 @@
+name: GetUUID
+version: ${project.version}
+main: ${project.groupId}.${project.artifactId}
+authors: [Magnum1997]
+description: Get user UUIDs from username.
