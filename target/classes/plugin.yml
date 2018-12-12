@@ -1,0 +1,5 @@
+name: GetUUID
+version: 1.0-b1211-1530
+main: me.magnum.getuuid.GetUUID
+authors: [Magnum1997]
+description: Get user UUIDs from username.
