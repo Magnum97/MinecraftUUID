@@ -3,7 +3,7 @@ package me.magnum.minecraftuuid;
 import co.aikar.commands.BukkitCommandManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class MinecraftUUID extends JavaPlugin {
+public class GetUUID extends JavaPlugin {
 
     public static String pre = "&7[&aGetUUID&7] ";
     private static BukkitCommandManager commandManger;

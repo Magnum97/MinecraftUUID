@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.magnum.minecraftuuid</groupId>
-    <artifactId>MinecraftUUID</artifactId>
+    <artifactId>GetUUID</artifactId>
     <version>
-        1.0-b1211-1530
+        1.0-b1212-1530
     </version>
 
     <build>

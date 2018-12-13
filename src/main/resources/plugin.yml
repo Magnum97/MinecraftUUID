@@ -1,4 +1,4 @@
-name: MinecraftUUID
+name: GetUUID
 version: ${project.version}
 main: ${project.groupId}.${project.artifactId}
 authors: [Magnum1997]
