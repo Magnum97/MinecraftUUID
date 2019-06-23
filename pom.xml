@@ -76,7 +76,8 @@
         <groupId>me.magnum.lib</groupId>
         <artifactId>Common</artifactId>
         <version>1.0.0</version>
-        <scope>compile</scope>
+        <scope>system</scope>
+        <systemPath>C:/Users/Rich/IdeaProjects/GlobalLibraries/Common-1.0.0.jar</systemPath>
     </dependency>
     <!--Spigot API-->
     <dependency>
