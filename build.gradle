@@ -75,7 +75,7 @@ tasks.withType(JavaCompile) {
 }
 
 group = 'me.magnum.minecraftuuid'
-version = '1.0-b1212-1530'
+version = '1.0.1'
 sourceCompatibility = '1.8'
 
 publishing {
