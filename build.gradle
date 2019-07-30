@@ -11,6 +11,12 @@ import org.apache.tools.ant.filters.ReplaceTokens
     id 'maven-publish'
     }
 
+group= 'me.magnum' // Put your groupId here
+version= '1.1.0' // Put your version here
+archivesBaseName = 'GetUUID' // Put your artifactId here
+mainClassName = 'me.magnum.minecraftuuid.GetUUID'
+targetCompatibility = 1.8
+sourceCompatibility = 1.8
 
 repositories {
     mavenLocal()
@@ -35,6 +41,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
     implementation 'me.magnum.lib:CommonLibrary:1.0.2-SNAPSHOT'
     implementation 'co.aikar:acf-paper:0.5.0-SNAPSHOT'
+    implementation 'com.github.mkremins:fanciful:18dc039f5b'
 }
 // Minimizing an shadow JAR
 shadowJar {
